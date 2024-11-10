@@ -4,7 +4,7 @@ namespace Dapper.Helper.Test.Models;
 [Table("model_a")]
 public class ModelTestA
 {
-    [Condition]
+    [Key]
     public string id { get; set; }
     public string name { get; set; }
     public string age { get; set; }

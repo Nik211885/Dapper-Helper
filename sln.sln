@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper.Helper", "Dapper.Hel
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper.Helper.Test", "Dapper.Helper.Test\Dapper.Helper.Test.csproj", "{C1E967AA-1DD0-429C-8A50-FF10FD9CD3CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmark", "Benchmark\Benchmark.csproj", "{CF4941EC-9456-41C3-BFEF-714FDB0CEC92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C1E967AA-1DD0-429C-8A50-FF10FD9CD3CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1E967AA-1DD0-429C-8A50-FF10FD9CD3CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1E967AA-1DD0-429C-8A50-FF10FD9CD3CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF4941EC-9456-41C3-BFEF-714FDB0CEC92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF4941EC-9456-41C3-BFEF-714FDB0CEC92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF4941EC-9456-41C3-BFEF-714FDB0CEC92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF4941EC-9456-41C3-BFEF-714FDB0CEC92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

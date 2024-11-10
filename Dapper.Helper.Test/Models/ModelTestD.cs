@@ -4,9 +4,9 @@ namespace Dapper.Helper.Test.Models;
 
 public class ModelTestD
 {
-    [Condition]
+    [Key]
     public string foreign_key_a { get; set; }
-    [Condition]
+    [Key]
     public string foreign_key_b { get; set; }
 
     public string value { get; set; }
